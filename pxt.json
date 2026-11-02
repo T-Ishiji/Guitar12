@@ -1,0 +1,20 @@
+{
+    "name": "guitar-chord-v42-wide-stop-zone",
+    "version": "0.0.42",
+    "description": "Guitar chord extension for BBC micro:bit V2. Wider opposite-side stop bands and narrow deep-strum zones (~100 ADC counts).",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "main.ts",
+        "multitone.cpp"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
